@@ -18,12 +18,12 @@ from database.database import add_user, del_user, full_userbase, present_user
 FORCE_SUB_CHANNEL_IDS = {
     "channel": "Animedualaudiozippercartoonist",
   #  "channel2": "ongoingdubsubanime",
-#    "channel3": "spiritchronicles_1",
+    "channel3": "RascalDoesNotDreamofBunnyGirl_1",
     "channel4": "anidbs",
     "channel5": "TgCryptHub",
     "channel7": "PVCRYPTO0",
     "channel8": "thewatermagicianenglishdub",
-  #  "channel9": "arifureta_english_dubbed_1",
+    "channel9": "mydressupdarlingenglishdubb",
 }
 # Add a handler for the /start command
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
@@ -36,7 +36,7 @@ async def start_command(client: Client, message: Message):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @PVCRYPTO0 \n @TgCryptHub  \n @Animedualaudiozippercartoonist  \n @thewatermagicianenglishdub \n @anidbs",
+                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @mydressupdarlingenglishdubb \n @RascalDoesNotDreamofBunnyGirl_1 \n @TgCryptHub  \n @Animedualaudiozippercartoonist  \n @thewatermagicianenglishdub \n @anidbs",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton("Update Channel", url=f"t.me/{sub_channel_id}")
