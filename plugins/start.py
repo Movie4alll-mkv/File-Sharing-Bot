@@ -20,7 +20,7 @@ FORCE_SUB_CHANNEL_IDS = {
     "channel2": "oshinokoenglishdubbed",
     "channel3": "HellsParadisex",
     "channel4": "anidbs",
-    "channel5": "TgCryptHub",
+    "channel5": "cryptoairdrophubtg",
     "channel7": "jujutsukaisenseasonsdub",
     "channel8": "thewatermagicianenglishdub",
     "channel9": "part_time_jobs_ok",
@@ -37,7 +37,7 @@ async def start_command(client: Client, message: Message):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @part_time_jobs_ok \n @JobFindHere \n @HellsParadisex \n oshinokoenglishdubbed \n @jujutsukaisenseasonsdub \n @TgCryptHub  \n @Animedualaudiozippercartoonist  \n @thewatermagicianenglishdub \n @anidbs",
+                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @part_time_jobs_ok \n @JobFindHere \n @HellsParadisex \n @oshinokoenglishdubbed \n @jujutsukaisenseasonsdub \n @cryptoairdrophubtg  \n @Animedualaudiozippercartoonist  \n @thewatermagicianenglishdub \n @anidbs",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton("Update Channel", url=f"t.me/{sub_channel_id}")
