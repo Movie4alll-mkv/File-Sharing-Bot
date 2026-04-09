@@ -21,7 +21,7 @@ FORCE_SUB_CHANNEL_IDS = {
     "channel3": "HellsParadisex",
     "channel4": "anidbs",
     "channel5": "cryptoairdrophubtg",
-    "channel7": "jujutsukaisenseasonsdub",
+#    "channel7": "jujutsukaisenseasonsdub",
     "channel8": "thewatermagicianenglishdub",
     "channel9": "part_time_jobs_here",
     "channel59": "JobFindHere",
