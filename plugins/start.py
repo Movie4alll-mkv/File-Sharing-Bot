@@ -18,10 +18,10 @@ from database.database import add_user, del_user, full_userbase, present_user
 FORCE_SUB_CHANNEL_IDS = {
     "channel": "Animedualaudiozippercartoonist",
     "channel2": "oshinokoenglishdubbed",
-    "channel3": "HellsParadisex",
+    "channel3": "ShinobinoIttokienglishdubbed",
     "channel4": "anidbs",
     "channel5": "cryptoairdrophubtg",
-#    "channel7": "jujutsukaisenseasonsdub",
+    "channel7": "dreamingboyIsarealistdub",
     "channel8": "thewatermagicianenglishdub",
     "channel9": "part_time_jobs_here",
     "channel59": "JobFindHere",
@@ -37,7 +37,7 @@ async def start_command(client: Client, message: Message):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @part_time_jobs_here \n @JobFindHere \n @HellsParadisex \n @oshinokoenglishdubbed \n @jujutsukaisenseasonsdub \n @cryptoairdrophubtg  \n @Animedualaudiozippercartoonist  \n @thewatermagicianenglishdub \n @anidbs",
+                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @part_time_jobs_here \n @JobFindHere \n @ShinobinoIttokienglishdubbed \n @oshinokoenglishdubbed \n @dreamingboyIsarealistdub \n @cryptoairdrophubtg  \n @Animedualaudiozippercartoonist  \n @thewatermagicianenglishdub \n @anidbs",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton("Update Channel", url=f"t.me/{sub_channel_id}")
