@@ -20,7 +20,7 @@ FORCE_SUB_CHANNEL_IDS = {
     "channel2": "oshinokoenglishdubbed",
     "channel3": "ShinobinoIttokienglishdubbed",
     "channel4": "anidbs",
-    "channel5": "cryptoairdrophubtg",
+ #   "channel5": "cryptoairdrophubtg",
     "channel7": "dreamingboyIsarealistdub",
     "channel8": "thewatermagicianenglishdub",
     "channel9": "part_time_jobs_here",
